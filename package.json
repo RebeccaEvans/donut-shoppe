@@ -1,7 +1,6 @@
 {
   "name": "donut-shoppe",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,14 @@
     "express-ejs-layouts": "^2.5.0",
     "pg": "^7.14.0",
     "sequelize": "^5.21.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebeccaEvans/donut-shoppe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RebeccaEvans/donut-shoppe/issues"
+  },
+  "homepage": "https://github.com/RebeccaEvans/donut-shoppe#readme",
+  "description": ""
 }

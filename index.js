@@ -1,12 +1,15 @@
 let express = require('express')
-let layouts = ('express-ejs-layouts')
+let layouts = require('express-ejs-layouts')
+
 let app = express()
 
 app.set('view engine', 'ejs')
-app.use(layouts())
+app.use(layouts)
+
+app.use('/shops', require('./controllers/shops'))
 
 app.get('/', (req, res) => {
-	res.send('Hello!')
+  res.render('home')
 })
 
 app.listen(process.env.PORT || 3000)
